@@ -1,0 +1,42 @@
+{
+  "name": "Friggin-Fast-RSS",
+  "version": "0.0.1",
+  "repository": "http://",
+  "description": "A NodeJS implementation of the Tiny-Tiny-RSS update daemon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ttrss",
+    "update",
+    "daemon",
+    "nodejs",
+    "node-feed-parser",
+    "rss",
+    "feeds"
+  ],
+  "author": "Jeremy Christian",
+  "license": "GPL",
+  "dependencies": {
+    "pg.js": "~3.4.2",
+    "feedparser": "~0.19.2",
+    "request": "~2.42.0",
+    "phpjs": "~1.3.2",
+    "lodash": "~2.4.1",
+    "yargs": "~1.3.3",
+    "knex": "~0.7.3",
+    "mysql": "~2.5.5",
+    "bluebird": "~2.9.13",
+    "cheerio": "~0.19.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "jshint-stylish": "~1.0.0",
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0",
+    "sqlite3": "~3.0.4",
+    "minimist": "~1.1.0"
+  }
+}

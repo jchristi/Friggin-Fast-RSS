@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.gawker.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="http://feeds.gawker.com/~d/styles/itemcontent.css" type="text/css" media="screen"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title>WineHQ News</title>
+        <image>
+            <url>https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png</url>
+            <title>WineHQ News</title>
+            <link>https://www.winehq.org/news/rss/</link>
+        </image>
+        <link>https://www.winehq.org/news/rss/</link>
+        <description>News and information about Wine</description>
+        <language>en</language>
+        <copyright>(C) WineHQ 2015</copyright>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="https://www.winehq.org/news/rss/" type="application/rss+xml" />
+        <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly>
+
+
+        <item>
+            <title>Wine 1.7.38 Released</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<p> The Wine development release 1.7.38 is now available.</p>
+<p> <a href="https://www.winehq.org//announce/1.7.38">What's new</a> in this release:
+<ul>
+  <li>New version of the Gecko engine based on Firefox 36.</li>
+  <li>Support for themed scrollbars.</li>
+  <li>Updated version of the Mono engine.</li>
+  <li>More compatible RPC interface for service control.</li>
+  <li>Support for X Drag &amp; Drop version 5.</li>
+  <li>Threading fixes in IME support.</li>
+  <li>Various bug fixes.</li>
+</ul>
+<p>The source is <a href="http://prdownloads.sourceforge.net/wine/wine-1.7.38.tar.bz2">available now</a>.
+Binary packages are in the process of being built, and will appear soon at their respective <a href="https://www.winehq.org//download">download locations</a>.
+</p>
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015030601</link>
+            <guid>https://www.winehq.org/?news=2015030601</guid>
+            <pubDate>Fri, 06 Mar 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>World Wine News Issue 386</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<a href="https://www.winehq.org//wwn/386">WWN Issue 386</a> was released today.
+<ul>
+<li><a href="https://www.winehq.org//wwn/386#Weekly AppDB/Bugzilla Status Changes">Weekly AppDB/Bugzilla Status Changes</a></li>
+</ul>
+  
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015022701</link>
+            <guid>https://www.winehq.org/?news=2015022701</guid>
+            <pubDate>Fri, 27 Feb 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Wine 1.7.37 Released</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<p> The Wine development release 1.7.37 is now available.</p>
+<p> <a href="https://www.winehq.org//announce/1.7.37">What's new</a> in this release:
+<ul>
+  <li>Interface change notifications.</li>
+  <li>Support for the UTF-7 encoding.</li>
+  <li>A number of graphical fixes for themed controls.</li>
+  <li>Wininet now implemented on top of Win32 sockets.</li>
+  <li>Various bug fixes.</li>
+</ul>
+<p>The source is <a href="http://prdownloads.sourceforge.net/wine/wine-1.7.37.tar.bz2">available now</a>.
+Binary packages are in the process of being built, and will appear soon at their respective <a href="https://www.winehq.org//download">download locations</a>.
+</p>
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015022001</link>
+            <guid>https://www.winehq.org/?news=2015022001</guid>
+            <pubDate>Fri, 20 Feb 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>World Wine News Issue 385</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<a href="https://www.winehq.org//wwn/385">WWN Issue 385</a> was released today.
+<ul>
+<li><a href="https://www.winehq.org//wwn/385#Weekly AppDB/Bugzilla Status Changes">Weekly AppDB/Bugzilla Status Changes</a></li>
+</ul>
+  
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015021301</link>
+            <guid>https://www.winehq.org/?news=2015021301</guid>
+            <pubDate>Fri, 13 Feb 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Wine 1.7.36 Released</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<p> The Wine development release 1.7.36 is now available.</p>
+<p> <a href="https://www.winehq.org//announce/1.7.36">What's new</a> in this release:
+<ul>
+  <li>Some preliminary 64-bit support for Mac OS X.</li>
+  <li>Support for configuring speakers in Winecfg.</li>
+  <li>Improved support for Mac OS X Trash folder.</li>
+  <li>Support for typographic features in DirectWrite.</li>
+  <li>Various bug fixes.</li>
+</ul>
+<p>The source is <a href="http://prdownloads.sourceforge.net/wine/wine-1.7.36.tar.bz2">available now</a>.
+Binary packages are in the process of being built, and will appear soon at their respective <a href="https://www.winehq.org//download">download locations</a>.
+</p>
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015020701</link>
+            <guid>https://www.winehq.org/?news=2015020701</guid>
+            <pubDate>Sat, 07 Feb 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>World Wine News Issue 384</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<a href="https://www.winehq.org//wwn/384">WWN Issue 384</a> was released today.
+<ul>
+<li><a href="https://www.winehq.org//wwn/384#Wine64 on OS X">Wine64 on OS X</a></li>
+<li><a href="https://www.winehq.org//wwn/384#Weekly AppDB/Bugzilla Status Changes">Weekly AppDB/Bugzilla Status Changes</a></li>
+</ul>
+  
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015013001</link>
+            <guid>https://www.winehq.org/?news=2015013001</guid>
+            <pubDate>Fri, 30 Jan 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Wine 1.7.35 Released</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<p> The Wine development release 1.7.35 is now available.</p>
+<p> <a href="https://www.winehq.org//announce/1.7.35">What's new</a> in this release:
+<ul>
+  <li>Beginnings of support for OpenGL core contexts.</li>
+  <li>Initial support for glyph placement in DirectWrite.</li>
+  <li>Some more WBEM objects.</li>
+  <li>Various bug fixes.</li>
+</ul>
+<p>The source is <a href="http://prdownloads.sourceforge.net/wine/wine-1.7.35.tar.bz2">available now</a>.
+Binary packages are in the process of being built, and will appear soon at their respective <a href="https://www.winehq.org//download">download locations</a>.
+</p>
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015012301</link>
+            <guid>https://www.winehq.org/?news=2015012301</guid>
+            <pubDate>Fri, 23 Jan 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>World Wine News Issue 383</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<a href="https://www.winehq.org//wwn/383">WWN Issue 383</a> was released today.
+<ul>
+<li><a href="https://www.winehq.org//wwn/383#Examining Crosswin">Examining Crosswin</a></li>
+<li><a href="https://www.winehq.org//wwn/383#Wine64 on FreeBSD">Wine64 on FreeBSD</a></li>
+<li><a href="https://www.winehq.org//wwn/383#Weekly AppDB/Bugzilla Status Changes">Weekly AppDB/Bugzilla Status Changes</a></li>
+</ul>
+  
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015011601</link>
+            <guid>https://www.winehq.org/?news=2015011601</guid>
+            <pubDate>Fri, 16 Jan 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>Wine 1.7.34 Released</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<p> The Wine development release 1.7.34 is now available.</p>
+<p> <a href="https://www.winehq.org//announce/1.7.34">What's new</a> in this release:
+<ul>
+  <li>Support for surround sound in DirectSound.</li>
+  <li>Better text run support in DirectWrite.</li>
+  <li>Many HTML engine fixes.</li>
+  <li>More support for WBEM objects.</li>
+  <li>A few more C/C++ runtime functions.</li>
+  <li>Various bug fixes.</li>
+</ul>
+<p>The source is <a href="http://prdownloads.sourceforge.net/wine/wine-1.7.34.tar.bz2">available now</a>.
+Binary packages are in the process of being built, and will appear soon at their respective <a href="https://www.winehq.org//download">download locations</a>.
+</p>
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2015010901</link>
+            <guid>https://www.winehq.org/?news=2015010901</guid>
+            <pubDate>Fri, 09 Jan 2015 00:00:00 +0200</pubDate>
+        </item>
+
+        <item>
+            <title>World Wine News Issue 382</title>
+            <description>
+            <![CDATA[
+                <img src="https://media.codeweavers.com/pub/crossover/marketing/og/wine-hq-announcement.png" alt=""><br>
+                
+<a href="https://www.winehq.org//wwn/382">WWN Issue 382</a> was released today.
+<ul>
+<li><a href="https://www.winehq.org//wwn/382#Donation requests">Donation requests</a></li>
+<li><a href="https://www.winehq.org//wwn/382#Weekly AppDB/Bugzilla Status Changes">Weekly AppDB/Bugzilla Status Changes</a></li>
+</ul>
+  
+            ]]>
+            </description>
+            <link>https://www.winehq.org/news/2014121901</link>
+            <guid>https://www.winehq.org/?news=2014121901</guid>
+            <pubDate>Fri, 19 Dec 2014 00:00:00 +0200</pubDate>
+        </item>
+
+
+    </channel>
+</rss>

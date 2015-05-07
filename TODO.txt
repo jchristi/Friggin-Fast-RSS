@@ -1,0 +1,88 @@
+== Potential Names
+  * Paperboy
+  * Syndicate / Syndikit / SyndiCat
+  * Kudzu
+  * http://www.ptable.com/Images/periodic%20table.png
+    * Subatomic
+    * Atomic
+
+== Useful Libraries
+  * rewire - https://github.com/jhnns/rewire/
+  * proxyquire - https://github.com/thlorenz/proxyquire
+  * istanbul - https://github.com/gotwarlost/istanbul
+  * hapi - http://hapijs.com/ (HTTP API)
+  * node-inspector (in-browser debugger)
+  * moment.js - parse, validate, display dates (http://momentjs.com/)
+  * transpiling - http://babeljs.io/
+  * Gulp (Grunt replacement) - http://www.100percentjs.com/just-like-grunt-gulp-browserify-now/
+  * Scraper - https://github.com/Narzerus/yakuza
+  * JQuery for Node - https://github.com/cheeriojs/cheerio
+
+=== Promises
+  * co
+  * bluebird - https://github.com/petkaantonov/bluebird
+  * Q
+
+=== Testing
+  * js testing - https://payhip.com/b/FZWL (http://jstesting.jcoglan.com/contents.pdf)
+
+=== Debugging
+  * node built-in debug (node debug)
+  * browser-based debugger....
+
+=== Linting
+  * JSLint - not configurable
+  * JSHint - configurable
+  * JSCS
+  * ESLint
+  * Comparison: http://www.sitepoint.com/comparison-javascript-linting-tools/
+
+=== Configuration
+  * https://github.com/bebraw/parse-env
+  * https://github.com/flatiron/nconf
+  * https://github.com/lorenwest/node-config
+  * https://github.com/bebraw/node-configuration-patterns
+
+=== JSON REST API
+  * http://tt-rss.org/redmine/projects/tt-rss/wiki/JsonApiReference
+  * Probably write it by hand for now
+  * Express/MongoDB
+
+=== Router for controllers
+  * Express
+    * Connect
+  * what else?
+
+=== ORM
+  * Bookshelf
+  * Sequelize
+  * rdb (https://github.com/alfateam/rdb)
+
+=== Web Sockets
+  * Comparison: http://bit.ly/1AuYnh6
+  * RSS Push: https://en.wikipedia.org/wiki/RSS_Cloud
+
+=== Deasync
+  * https://github.com/ybogdanov/node-sync#
+  * https://github.com/abbr/deasync
+  * https://stackoverflow.com/questions/23768043/sync-function-on-nodejs-to-mysql
+
+Structuring node.js apps: http://bit.ly/1AgIBTs
+Checking any type in js: http://bit.ly/1FOtDYo
+
+=== Table names
+cat_counters_cache    => cache_category_counter
+counters_cache        => cache_counters
+error_log             // is it ever a good idea to store errors in the database??
+                        // yes, for feed update errors (if it is used for that)
+feedbrowser_cache     => cache_feedbrowser
+filters2              Model: Filter2 // TODO: difference b/w Filter2 and Filter?
+filter_actions        Model: FilterAction (filter, catchup, mark, tag, publish, score, label, stop)
+filter_types            // Model: FilterType (title, content, both, link, date, author, tag)
+linked_feeds          probably not support for now...
+linked_instances      probably not support for now...
+plugin_storage        // TODO: overhaul plugin architecture?
+sessions              Sessions // TODO: how to manage sessions?
+user_entries            Model: UserEntry (M2M table and more)
+user_labels2            Model: UserLabel (M2M table)
+user_prefs              Model: UserPreference (not M2M table)

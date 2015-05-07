@@ -1,0 +1,45 @@
+// JSHint Options (http://jshint.com/docs/options/)
+{
+  // Enforcing options
+  "camelcase": false,
+  "curly": false,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "immed": true,
+  "latedef": "nofunc",
+  "noempty": false, // TODO: change eventually
+  "plusplus": false,
+  "quotmark": false,
+  "undef": true,
+  "unused": false, // TODO: change eventually
+  "strict": false,
+  "maxparams": false, // TODO: change eventually
+  "maxdepth": 5,
+  "maxstatements": 999, // TODO: change eventually
+  "maxcomplexity": 20, // TODO: ???
+  "maxlen": false, // TODO: change eventually
+
+  // Relaxing options
+  "asi": true, // missing semi-colons
+  "boss": true, // supress warnings about assignments when comparisons expected
+  "debug": true,
+  "esnext": false,
+  "evil": false,
+  "funcscope": true,
+  "globalstrict": true,
+  "iterator": false,
+  "lastsemic": true,
+  "laxcomma": true, // TODO: decide on this...
+  "loopfunc": false,
+  "maxerr": 20,
+  "multistr": true,
+  "shadow": false,
+  "sub": false,
+
+  // Environments
+  "node": true,
+
+  "globals": {
+  }
+}
