@@ -77,6 +77,7 @@ error_log             // is it ever a good idea to store errors in the database?
                         // yes, for feed update errors (if it is used for that)
 feedbrowser_cache     => cache_feedbrowser
 filters2              Model: Filter2 // TODO: difference b/w Filter2 and Filter?
+                        // in update.php: --convert-filters    - convert type1 filters to type2
 filter_actions        Model: FilterAction (filter, catchup, mark, tag, publish, score, label, stop)
 filter_types            // Model: FilterType (title, content, both, link, date, author, tag)
 linked_feeds          probably not support for now...
