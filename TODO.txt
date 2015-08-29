@@ -69,6 +69,7 @@
 
 Structuring node.js apps: http://bit.ly/1AgIBTs
 Checking any type in js: http://bit.ly/1FOtDYo
+Other userful info: http://kb.imakewebsites.ca/2014/01/04/new-node-wishlist/
 
 === Table names
 cat_counters_cache    => cache_category_counter
