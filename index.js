@@ -21,14 +21,13 @@ var options = {
 };
 var feedparser = new FeedParser([options]);
 
-req.on('error', function (error) {
+req.on('error', function(error) {
   // handle any request errors
 });
-req.on('response', function (res) {
+req.on('response', function(res) {
   var stream = this;
-
-  if (res.statusCode !== 200) return this.emit('error', new Error('Bad status code'));
-
+  if (res.statusCode !== 200)
+    return this.emit('error', new Error('Bad status code'));
   stream.pipe(feedparser);
 });
 

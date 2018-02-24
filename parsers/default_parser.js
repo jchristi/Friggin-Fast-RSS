@@ -218,7 +218,7 @@ var parse_item = function(item, owner_uid) { // TODO: pass feed model instead?
 
       debug('RID: ' + entity_ref_id + ', IID: ' + entry_int_id);
 
-      entry.set({ // TODO: is this entry or user_entry?
+      entry.set({ // this is entry, NOT user_entry
         title: entry_title,
         content: entry_content,
         content_hash: entry_content_hash,
